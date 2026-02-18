@@ -1,15 +1,18 @@
 ## Objective
-Analyze the provided used car dataset to identify which factors most strongly influence car prices and translate these 
+Analyze a used car dataset to identify which factors most strongly influence car prices and translate these 
 findings into clear, actionable recommendations for a used car dealership.
 
 ### Dataset Description
-The dataset contains information on used cars, with the following columns:
+The dataset is sourced from Kaggle and contains information on used cars. While the original dataset contained 3 million 
+records, this version includes 426K entries to facilitate faster processing.
+
+The dataset includes the following columns:
 
 | Column | Description |
 | :--- | :--- |
 | **id** | Unique identifier for the listing. |
 | **region** | The region where the car is listed. |
-| **price** | The listed price of the car. |
+| **price** | The listed price of the car (Target Variable). |
 | **year** | The manufacturing year of the car. |
 | **manufacturer** | The brand/maker of the car. |
 | **model** | The specific model of the car. |
